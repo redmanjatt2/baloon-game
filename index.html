@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Popping Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Balloon Popping Game</h1>
+    <div id="game-info">
+        <p>Score: <span id="score">0</span></p>
+        <p>Time Left: <span id="timer">30</span> seconds</p>
+        <button id="pause-resume">Pause</button>
+    </div>
+    <div id="game-container"></div>
+    <div id="game-over" class="hidden">
+        <h2>Game Over!</h2>
+        <p>Your final score is <span id="final-score">0</span></p>
+        <p>High Score: <span id="high-score">0</span></p>
+        <button id="restart">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
